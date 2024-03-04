@@ -1,0 +1,286 @@
+/* Padrão celular */
+
+body {
+    margin: 0;
+  
+}
+
+#cabecalho {
+    width: 100%;
+    height: auto;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+#superior {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-ca {
+    padding: 1%;
+}
+
+#simbolo{
+    width: 3em;
+    height: auto;
+    margin: 1em;
+}
+
+#direita {
+
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#lista {
+    margin: 0;
+    padding: 0;
+}
+
+#lista li {
+    list-style: none;
+    padding: 0;
+  
+}
+
+
+#navegacao {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    height: auto;
+    min-height: 100vh;
+    box-shadow: 10px 50px 20px 20px black;
+}
+
+#navegacao li {
+    font-size: 1.5em;
+    margin: 20% 15%;
+    
+
+}
+
+#navegacao a{
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+#ajuste-botao{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.ocultar {
+    display: none ;
+}
+
+#menu-mobile, #favorite, #sacola {
+    font-size: 1.5em;
+    padding: 2px;
+    margin: 0 1vw;
+
+}
+#direita .material-symbols-outlined:hover{
+    background-color: rgb(211, 211, 211);
+    border-radius: 50%;
+}
+
+#formulario {
+    width: 95%;
+    min-height: 55%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 247, 247);
+    margin: 0;
+    border-radius: 30px;
+}
+
+#formulario:hover {
+    background-color:rgb(216, 215, 215) ;
+}
+
+#ajuste-busca{
+    width: 98%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#busca{
+    background-color:rgb(248, 247, 247);
+    width: 100%;
+    min-height: 5vh;
+    box-sizing: border-box;
+    margin-left: 1%;
+    border-radius: 20px;
+    border: 1px solid rgb(248, 247, 247);
+    cursor: pointer;
+    
+}
+
+#busca:focus-visible {
+   outline: none;
+}
+
+#lupa {
+    background-color: rgb(241, 241, 241);
+    border-radius:100%;
+    padding:1%;
+    z-index: 2;
+}
+
+#aplicativo {
+    background-color:rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 7vh;
+
+}
+
+#logo-app img{
+    width: 20px;
+}
+
+.item-app {
+    margin: 0 1.5%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+}
+
+#aplicativo a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 0.9em;
+}
+
+#container-father{
+    margin-top: 16vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container-filho{
+ 
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.container-filho img {
+    width: 90%;
+}
+
+.descricao {
+    background-color: white;
+    width: 80%;
+}
+
+.nome-tenis {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.frase-efeito{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4em;
+    margin: 0;
+}
+
+.text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
+.botoes {
+    margin-top: 1em;
+    height: 3em;
+    padding: 0 2em;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-family:'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+#video-app {
+    width: 100%;
+}
+
+#frase-app {
+    font-size: 3em;
+}
+
+#frase-app {
+    margin-top: 0.5em;
+}
+
+#rodape{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    min-height: 15vh;
+    margin-top: 5vh ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rodape-filho{
+    width: 30%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 0 3vw;
+}
+
+.rodape-filho p {
+    margin: 1vh;
+}
+
+.logo-rede {
+    width: 25%;
+}
+#pag {
+    width: 80%;
+}
+
+#info p {
+    margin:  0.3vh 0;
+}
